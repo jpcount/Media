@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MediathequeTP.Classes;
+using System;
+using System.Collections.Generic;
 
 namespace MediathequeTP
 {
@@ -6,7 +8,10 @@ namespace MediathequeTP
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+      
+            IHMMediatheque Imedia = new IHMMediatheque();
+
+            Imedia.Start();
         }
     }
 }
